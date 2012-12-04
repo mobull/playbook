@@ -7,7 +7,7 @@
 
 异步工作的好处：
 
-* 您可以专心地展开工作，而不被打扰。([Jason Fried: Why work doesn't happen at work](http://www.ted.com/talks/jason_fried_why_work_doesn_t_happen_at_work.html))
+* 您可以专心地展开工作，而不被打扰。(参考：[Jason Fried: Why work doesn't happen at work](http://www.ted.com/talks/jason_fried_why_work_doesn_t_happen_at_work.html))
 * 您可以选择自己状态最好的时段工作。
 * （欢迎补充）
 
