@@ -1,4 +1,4 @@
-必须遵守的原则：
+## 必须遵守的原则：
 
 * 开始工作前，请 fork 一个你要参与的项目。您所有的代码提交都需要在自己的 fork 里完成，当可以合并到主仓库时，请发送 pull request。
 * 将 pull request 并入主仓库前，需要对代码进行同侪审阅（peer review)。如果发现问题，应通知原作者进行修改，完成后再并入主仓库。
@@ -8,7 +8,11 @@
 
 如遇任何问题，或有好的建议，请在 Campfire 上讨论。有价值的部分，整理后添加到 Wiki。
 
-参考资料与延展阅读：
+## 日常使用实例
+
+
+
+## 参考资料与延展阅读：
 
 * http://scottchacon.com/2011/08/31/github-flow.html
 * http://nvie.com/posts/a-successful-git-branching-model/
