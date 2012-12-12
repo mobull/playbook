@@ -14,6 +14,11 @@
 （目标读者：所有开发人员）
 
 * [使用 Git 协作的流程](wiki/使用-Git-协作的流程)
+* [CSS 风格指南](https://github.com/styleguide/css)
+* [JavaScript 风格指南](https://github.com/styleguide/javascript)
+* [Ruby 风格指南](https://github.com/styleguide/ruby)
+* [RSpec 风格指南](http://betterspecs.org/)
+* [Rails 风格指南](https://github.com/bbatsov/rails-style-guide)
 
 ## 协作技巧
 
