@@ -5,4 +5,4 @@
 * [rbenv](https://github.com/sstephenson/rbenv) + [rbuy-build](https://github.com/sstephenson/ruby-build)
 * [RVM](http://rvm.io/) 
 
-这里推荐第一种途径，原因请参见 rbenv 项目页的陈述。
+这里推荐第一种途径，理由请参见 rbenv 项目页的陈述。
