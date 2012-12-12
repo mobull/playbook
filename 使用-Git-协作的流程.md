@@ -1,4 +1,4 @@
-在开始前，你需要安装并设置好 Git。
+在开始前，你需要[安装并设置好 Git](https://help.github.com/articles/set-up-git)。
 
 ## 必须遵守的原则
 
@@ -15,7 +15,9 @@
 
 ### Fork 项目
 
-第一次参与项目，请在 GitHub 项目页面点击 fork，您将会跳转到 fork 项目。找到项目 `clone` 地址， 如： `git@github.com:xmarco/MDM.git`。
+第一次参与项目，请在 GitHub 项目页面点击 fork，您将会跳转到 fork 项目。
+
+找到项目 `clone` 地址， 如： `git@github.com:xmarco/MDM.git`。
 
 ### 克隆仓库
 
@@ -65,6 +67,8 @@
 如果 rebase 出现冲突，则按照屏幕提示解决冲突后，继续完成 rebase 操作。
 
 注意，rebase 应该发生在有映射关系的分支上（如：master 与 upstream/master，tenant-info 与 upstream/master），请不要 rebase 非映射关系的分支。
+
+更多关于使用 fork 协作的信息，请参考 [GitHub 帮助](https://help.github.com/articles/fork-a-repo)。
 
 ## 参考资料与延展阅读
 
