@@ -1,4 +1,4 @@
-请确认您已经安装并设置好 Git，如果没有，请参照 [GitHub 帮助](https://help.github.com/articles/set-up-git)进行操作。
+请确认您已经安装并设置好 Git，如果没有，请参照 [GitHub 帮助](https://help.github.com/articles/set-up-git) 进行操作。
 
 ## 必须遵守的原则
 
