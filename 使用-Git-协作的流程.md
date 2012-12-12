@@ -15,20 +15,56 @@
 
 ### Fork 项目
 
-第一次参与项目，请在 GitHub 项目页面点击 fork，您将会跳转到 fork 项目。找到项目 `clone` 地址， 如： `git@github.com:mobull/MDM.git`。
+第一次参与项目，请在 GitHub 项目页面点击 fork，您将会跳转到 fork 项目。找到项目 `clone` 地址， 如： `git@github.com:xmarco/MDM.git`。
 
 ### 克隆仓库
 
-打开你喜欢的终端程序（如：Mac 下的 [iTerm2](www.iterm2.com)），输入一下命令克隆远程仓库：
+打开你喜欢的终端程序（如：Mac 下的 [iTerm2](www.iterm2.com)），输入以下命令克隆远程仓库：
 
     $ cd ~/Projects                                                  # 进入你用来存放项目的路径
-    $ git clone git@github.com:mobull/MDM.git
+    $ git clone git@github.com:xmarco/MDM.git
     Cloning into 'MDM'...
     remote: Counting objects: 521, done.
     remote: Compressing objects: 100% (243/243), done.
     remote: Total 521 (delta 245), reused 512 (delta 236)
     Receiving objects: 100% (521/521), 81.93 KiB | 40 KiB/s, done.
     Resolving deltas: 100% (245/245), done.
+
+### 获取上游仓库的更新
+
+上游仓库（upstream）是指所有代码最后合并进的主仓库。我们需要把上游仓库也设置为远端（remote）：
+
+    $ cd ~/Project/MDM                                               # 进入项目路径
+    $ git remote add upstream git@github.com:mobull/MDM.git          # 添加上游仓库的地址作为远端
+    $ git remote -v                                                  # 列出所有的 remotes
+    origin	git@github.com:xmarco/MDM.git (fetch)
+    origin	git@github.com:xmarco/MDM.git (push)
+    upstream	git@github.com:mobull/MDM.git (fetch)
+    upstream	git@github.com:mobull/MDM.git (push)
+
+此时，远端分支并没有同步进你的本地仓库，运行以下命令获取远端分支数据：
+
+    $ git fetch upstream                                             # 获取名为 upstream 的远端数据
+    From github.com:mobull/MDM
+    * [new branch]      master     -> upstream/master
+    * [new branch]      tenant-info -> upstream/tenant-info
+
+实际上，系统为您创建了几个隐蔽的本地分支，这些分支被命名为“remotes/#{远端名}/#{远端仓库里的分支名}”，使用以下命令可以查看本地所有分支：
+
+    $ git branch -a
+    * master
+      tenant-info
+      remotes/upstream/master
+      remotes/upstream/tenant-info
+
+要把远端的更新应用到本地工作分支，使用以下命令：
+
+    $ git rebase upstream/master                                      # 可以省略“remotes/”
+    Current branch master is up to date.
+
+如果 rebase 出现冲突，则按照屏幕提示解决冲突后，继续完成 rebase 操作。
+
+注意，rebase 应该发生在有映射关系的分支上（如：master 与 upstream/master，tenant-info 与 upstream/master），请不要 rebase 非映射关系的分支。
 
 ## 参考资料与延展阅读
 
