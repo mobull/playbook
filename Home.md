@@ -13,7 +13,7 @@
 
 （目标读者：所有开发人员）
 
-* [使用 Git 协作的流程](wiki/使用-Git-协作的流程)
+* [使用 Git 协作的流程](wiki/Git 操作准则)
 * [CSS 风格指南](https://github.com/styleguide/css)
 * [JavaScript 风格指南](https://github.com/styleguide/javascript)
 * [Ruby 风格指南](https://github.com/styleguide/ruby)
