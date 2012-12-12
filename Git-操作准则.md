@@ -1,4 +1,4 @@
-在开始前，你需要[安装并设置好 Git](https://help.github.com/articles/set-up-git)。
+请确认您已经安装并设置好 Git。如果没有，请参照 [GitHub 帮助](https://help.github.com/articles/set-up-git)进行操作。
 
 ## 必须遵守的原则
 
