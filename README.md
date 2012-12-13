@@ -6,14 +6,14 @@
 
 （目标读者：所有开发人员）
 
-* [Mac OS X](https://github.com/mobull/playbook/blob/master/Mac-OS-X-下开发环境的配置)
-* [Ubuntu](https://github.com/mobull/playbook/blob/master/Ubuntu-下开发环境的配置)
+* [Mac OS X](https://github.com/mobull/playbook/blob/master/Mac-OS-X-下开发环境的配置.md)
+* [Ubuntu](https://github.com/mobull/playbook/blob/master/Ubuntu-下开发环境的配置.md)
 
 ## 开发规范
 
 （目标读者：所有开发人员）
 
-* [Git 操作准则](https://github.com/mobull/playbook/blob/master/Git-操作准则)
+* [Git 操作准则](https://github.com/mobull/playbook/blob/master/Git-操作准则.md)
 * [CSS 风格指南](https://github.com/styleguide/css)
 * [JavaScript 风格指南](https://github.com/styleguide/javascript)
 * [Ruby 风格指南](https://github.com/styleguide/ruby)
@@ -24,7 +24,7 @@
 
 （目标读者：所有项目参与人员）
 
-* [使用 Campfire 进行异步工作](https://github.com/mobull/playbook/blob/master/使用 Campfire-进行异步工作)
-* [Mac 下录制屏幕录像](https://github.com/mobull/playbook/blob/master/Mac-下录制屏幕录像)
+* [使用 Campfire 进行异步工作](https://github.com/mobull/playbook/blob/master/使用-Campfire-进行异步工作.md)
+* [Mac 下录制屏幕录像](https://github.com/mobull/playbook/blob/master/Mac-下录制屏幕录像.md)
 
 如果您认为一些信息有必要放在这里和大家分享，请直接编辑。记住，这是一本靠大家共同编辑的 Playbook。
