@@ -27,4 +27,10 @@
 * [使用 Campfire 进行异步工作](https://github.com/mobull/playbook/blob/master/使用-Campfire-进行异步工作.md)
 * [Mac 下录制屏幕录像](https://github.com/mobull/playbook/blob/master/Mac-下录制屏幕录像.md)
 
+## MDM 资料
+
+* [MDM 及 MEAP 概述](http://www.youtube.com/watch?v=-OEBVuNH1tw) （YouTube 视频）
+
+## 为 Playbook 贡献内容
+
 如果您认为一些信息有必要放在这里和大家分享，请直接编辑。记住，这是一本靠大家共同编辑的 Playbook。
