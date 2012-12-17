@@ -6,8 +6,8 @@
 
 （目标读者：所有开发人员）
 
-* [Mac OS X](https://github.com/mobull/playbook/blob/master/Mac-OS-X-下开发环境的配置.md)
-* [Ubuntu](https://github.com/mobull/playbook/blob/master/Ubuntu-下开发环境的配置.md)
+* 安装 Ruby （[Mac OS X](https://github.com/mobull/playbook/blob/master/Mac-OS-X-下开发环境的配置.md) | [Ubuntu](https://github.com/mobull/playbook/blob/master/Ubuntu-下开发环境的配置.md)）
+* [安装 PhantomJS](https://github.com/mobull/MDM/blob/c5c78f6424d7e2a3a95d68c9ed0010525422d840/README.markdown)
 
 ## 开发规范
 
