@@ -20,16 +20,17 @@
 * [RSpec 风格指南](http://betterspecs.org/)
 * [Rails 风格指南](https://github.com/bbatsov/rails-style-guide)
 
+## MDM 资料
+
+* [开发人员相关文档导读](https://github.com/mobull/playbook/blob/master/开发人员相关文档导读.md)
+* [MDM 及 MEAP 概述](http://www.youtube.com/watch?v=-OEBVuNH1tw) （YouTube 视频）
+
 ## 协作技巧
 
 （目标读者：所有项目参与人员）
 
 * [使用 Campfire 进行异步工作](https://github.com/mobull/playbook/blob/master/使用-Campfire-进行异步工作.md)
 * [Mac 下录制屏幕录像](https://github.com/mobull/playbook/blob/master/Mac-下录制屏幕录像.md)
-
-## MDM 资料
-
-* [MDM 及 MEAP 概述](http://www.youtube.com/watch?v=-OEBVuNH1tw) （YouTube 视频）
 
 ## 为 Playbook 贡献内容
 
